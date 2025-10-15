@@ -5,13 +5,13 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagement.Console", "src\EventManagement.Console\EventManagement.Console.csproj", "{D4246BC4-197A-4797-A226-77EA6EACC263}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagement.Domain", "src\EventManagement.Domain\EventManagement.Domain.csproj", "{EB1C85C6-C1A3-471F-92DB-C79B9B7FF580}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagement.Domain.Tests", "tests\EventManagement.Domain.Tests\EventManagement.Domain.Tests.csproj", "{FC729F60-57FD-40F8-963C-FBEBCE029F5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManagement.ConsoleApp", "src\EventManagement.ConsoleApp\EventManagement.ConsoleApp.csproj", "{C12FA634-5CDC-4DA4-8510-8A8433DFD761}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,18 +23,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D4246BC4-197A-4797-A226-77EA6EACC263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4246BC4-197A-4797-A226-77EA6EACC263}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4246BC4-197A-4797-A226-77EA6EACC263}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{D4246BC4-197A-4797-A226-77EA6EACC263}.Debug|x64.Build.0 = Debug|Any CPU
-		{D4246BC4-197A-4797-A226-77EA6EACC263}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{D4246BC4-197A-4797-A226-77EA6EACC263}.Debug|x86.Build.0 = Debug|Any CPU
-		{D4246BC4-197A-4797-A226-77EA6EACC263}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4246BC4-197A-4797-A226-77EA6EACC263}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D4246BC4-197A-4797-A226-77EA6EACC263}.Release|x64.ActiveCfg = Release|Any CPU
-		{D4246BC4-197A-4797-A226-77EA6EACC263}.Release|x64.Build.0 = Release|Any CPU
-		{D4246BC4-197A-4797-A226-77EA6EACC263}.Release|x86.ActiveCfg = Release|Any CPU
-		{D4246BC4-197A-4797-A226-77EA6EACC263}.Release|x86.Build.0 = Release|Any CPU
 		{EB1C85C6-C1A3-471F-92DB-C79B9B7FF580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EB1C85C6-C1A3-471F-92DB-C79B9B7FF580}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB1C85C6-C1A3-471F-92DB-C79B9B7FF580}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -59,13 +47,25 @@ Global
 		{FC729F60-57FD-40F8-963C-FBEBCE029F5E}.Release|x64.Build.0 = Release|Any CPU
 		{FC729F60-57FD-40F8-963C-FBEBCE029F5E}.Release|x86.ActiveCfg = Release|Any CPU
 		{FC729F60-57FD-40F8-963C-FBEBCE029F5E}.Release|x86.Build.0 = Release|Any CPU
+		{C12FA634-5CDC-4DA4-8510-8A8433DFD761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12FA634-5CDC-4DA4-8510-8A8433DFD761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12FA634-5CDC-4DA4-8510-8A8433DFD761}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C12FA634-5CDC-4DA4-8510-8A8433DFD761}.Debug|x64.Build.0 = Debug|Any CPU
+		{C12FA634-5CDC-4DA4-8510-8A8433DFD761}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C12FA634-5CDC-4DA4-8510-8A8433DFD761}.Debug|x86.Build.0 = Debug|Any CPU
+		{C12FA634-5CDC-4DA4-8510-8A8433DFD761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12FA634-5CDC-4DA4-8510-8A8433DFD761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12FA634-5CDC-4DA4-8510-8A8433DFD761}.Release|x64.ActiveCfg = Release|Any CPU
+		{C12FA634-5CDC-4DA4-8510-8A8433DFD761}.Release|x64.Build.0 = Release|Any CPU
+		{C12FA634-5CDC-4DA4-8510-8A8433DFD761}.Release|x86.ActiveCfg = Release|Any CPU
+		{C12FA634-5CDC-4DA4-8510-8A8433DFD761}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D4246BC4-197A-4797-A226-77EA6EACC263} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{EB1C85C6-C1A3-471F-92DB-C79B9B7FF580} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{FC729F60-57FD-40F8-963C-FBEBCE029F5E} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+		{C12FA634-5CDC-4DA4-8510-8A8433DFD761} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal

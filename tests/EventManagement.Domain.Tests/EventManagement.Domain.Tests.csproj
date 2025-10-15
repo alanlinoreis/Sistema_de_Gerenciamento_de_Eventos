@@ -18,4 +18,8 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\EventManagement.Domain\EventManagement.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
